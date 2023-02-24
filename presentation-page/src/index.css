@@ -1,5 +1,5 @@
 body {
-  height: 97vh;
+  height: 100vh;
   background: linear-gradient(
     0deg,
     rgba(164, 0, 196) 0%,
@@ -8,6 +8,7 @@ body {
     rgba(13, 0, 27) 82%,
     rgba(0, 0, 0) 100%
   );
+  overflow: hidden;
 }
 .stage {
   margin: 0 auto;
