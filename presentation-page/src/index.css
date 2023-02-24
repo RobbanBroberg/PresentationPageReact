@@ -458,6 +458,25 @@ figure {
   width: 25px;
   height: 335px;
 }
+.not-split-screen {
+  background-image: url("../src/img/zflipStreched.png");
+  width: 357px;
+  height: 0px;
+  border-radius: 14px;
+  transform: translateX(1.5px) translateY(-878px) translateZ(11px);
+  animation: show 1ms ease-in 5.2s forwards;
+}
+
+@keyframes show {
+  from {
+    height: 0;
+  }
+  to {
+    height: 876px;
+  }
+  
+}
+
 @keyframes hinge-flip {
   0% {
     transform: rotateX(0deg) translateY(20px) translateZ(-2px);
